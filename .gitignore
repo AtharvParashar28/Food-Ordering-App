@@ -5,6 +5,8 @@
 /dist/
 /build/
 
+# Practise folder
+/Practice/
 # local env files
 .env
 .env.*.local
