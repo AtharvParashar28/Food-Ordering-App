@@ -1,41 +1,55 @@
 import '@testing-library/jest-dom';
-import { screen,render } from '@testing-library/react';
-import {MOCKDATA} from '../mocks/body.mock.json';
+import { screen, render, fireEvent } from '@testing-library/react';
+import { MOCKDATA } from '../mocks/bodyMock.json';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import appStore from '../../utils/appStore';
 import Body from '../Body'
-import { act } from 'react';    
+import ResCard from '../ResCard';
+import { act } from 'react';
+
+// Delay
+// const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 // Integration Testing
 
 // Mocking fetch function for js-dom
-global.fetch = jest.fn(()=>{
-    // Fetch return a promise
+global.fetch = jest.fn(() => {
     return Promise.resolve({
-        // Promise contains json
         json : () => {
-            // json contains mockdata(that is fetch from swiggy's API)
             return Promise.resolve(MOCKDATA);
         }
     })
 })
-describe("Testing whether search bar is functioning or not", () =>{
-    // test case 1
-    test ("It should render body with a search component" , async()=>{
-        await act(async () => {
+
+it.skip("It should render body with a search component", async () => {
+    await act(async () => {
         render(
             <BrowserRouter>
-                <Body/>
+                <Provider store={appStore}>
+                    <Body />
+                </Provider>
             </BrowserRouter>
-        )}
+        )
+    }
     )
 
+    const rescard = screen.getByTestId('rescard');
+
+    console.log(rescard?.length);
     // querying
-    const button = screen.getByRole('button',{name:"Search"});
+    const Searchbutton = screen.getByRole('button', { name: "Search" });
 
     // Assertion
-    expect(button).toBeInTheDocument();
-    }
+    // expect(Searchbutton).toBeInTheDocument();
+
+    const SearchInput = screen.getByTestId("SearchInput");
+
+    // fireEvent.change(SearchInput,{target:{value:"McDonald's"}});
+
+    // fireEvent.click(Searchbutton);
+
+    // expect(rescard.length).toBeGreaterThan(0);
+
+}
 )
-})

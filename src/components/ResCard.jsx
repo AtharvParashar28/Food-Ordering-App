@@ -26,7 +26,7 @@ const ResCard = (props) => {
   }
 
   return (
-    <div className="w-64 h-82 border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center">
+    <div data-testid="rescard" className="w-64 h-82 border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center">
       <img src={SRC_URL  + cloudinaryImageId} className="mb-4 object-cover w-full h-full"/>
       <h2 className="text-lg font-semibold mb-2">{name} | {avgRating}/5</h2>
     </div>

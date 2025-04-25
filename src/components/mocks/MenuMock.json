@@ -1,0 +1,1931 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "McCafe by McDonald's",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "192426",
+                            "name": "McCafe by McDonald's",
+                            "city": "Indore",
+                            "slugs": {
+                                "restaurant": "mccafe-by-mcdonalds-indore-bhawarkuan-bhawar-kuan",
+                                "city": "indore"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/19/ef63c20a-571f-412b-a3fe-d192015d121b_192426.jpg",
+                            "locality": "Orange Business Park",
+                            "areaName": "Bhawarkuan Main Road",
+                            "costForTwo": "25000",
+                            "costForTwoMessage": "₹250 for two",
+                            "cuisines": [
+                                "American",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.2,
+                            "feeDetails": {
+                                "restaurantId": "192426",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "8263",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "187 ratings",
+                            "sla": {
+                                "restaurantId": "192426",
+                                "deliveryTime": 30,
+                                "minDeliveryTime": 30,
+                                "maxDeliveryTime": 35,
+                                "lastMileTravel": 5,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 528,
+                                "slaString": "30-35 MINS",
+                                "lastMileTravelString": "5.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-04-23 04:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹25 off| Above ₹299",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "mccafe-by-mcdonalds-indore-bhawarkuan-bhawar-kuan",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Hardcastle Restaurants Pvt Ltd, McDonalds Family Restaurants Pvt Ltd, Orange Business Park, Survey No 1618/1/2 and 1618/1/3, Bhawarkuan Main Road,Beside Rajnandini Hotel, Near Apple Hospital,Indore"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "American,Beverages"
+                                }
+                            ],
+                            "totalRatings": 187,
+                            "aggregatedDiscountInfoV2": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Flat ₹25 off| Above ₹299",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹150|Use AMEXCORP Above ₹699",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/192426"
+                            },
+                            "generalPurposeInfoListV2": [
+                                {
+                                    "cta": {
+                                        "info": {
+                                            "recordings": {}
+                                        },
+                                        "linkCta": {}
+                                    }
+                                }
+                            ],
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "22.69496101,75.86624196",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 2,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹25 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "offerIds": [
+                                                "f7a5e99c-1612-4469-9d19-d55c39393acb"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹299",
+                                            "offerType": "offers",
+                                            "restId": "192426",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/3/31/7e6e642d-f83e-4e02-b302-e850c00c3cc7_BHIMMenuVisibilityLogo1.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "NO CODE REQUIRED"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "offerIds": [
+                                                "bb2ff398-29d2-4033-9281-f4e128f62653"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AMEXCORP",
+                                            "description": "ABOVE ₹699",
+                                            "offerType": "offers",
+                                            "restId": "192426",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/4/3/7f30885f-0cbb-4a38-8b4f-741efa6cbe84_AMEXMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AMEXCORP"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Coffee & Beverages (Hot and Cold)",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63417922",
+                                                            "name": "American Mud Pie Shake",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Creamy and rich with chocolate and blended with nutty brownie bits for that extra thick goodness",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/5ad3343d-a520-498d-a933-52104c624304_9f6cb499-0229-40dc-8b17-4c386f0cc287.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "121540196",
+                                                            "name": "Cappuccino Coffee (R)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A refreshing espresso shot of 100% Arabica beans, topped with steamed milk froth. 473ml",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/4f45f0d8-111a-4d9c-a993-06d6858fdb06_cb5d79e9-c112-45e5-9e6a-e17d75acd8ac.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63417933",
+                                                            "name": "Chocolate Flavoured Shake",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "The classic sinful Chocolate Flavoured Shake, a treat for anytime you need one. Now in new, convenient and delivery friendly packaging",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/463331b6-aa39-4d37-a8b2-c175aa20f723_14e888b6-2ebf-4d84-93a7-7b0576147bda.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "8 ratings",
+                                                                    "ratingCountV2": "8"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63417932",
+                                                            "name": "Mocha Frappe",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "The perfect mix of indulgence and bold flavours. Enjoy a delicious blend of coffee, chocolate sauce, and soft serve",
+                                                            "imageId": "063e9cd747c621978ab4fddbb6d0a5ee",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "125974250",
+                                                            "name": "Chocolate Frappe",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "An induglent treat of chocolate sauce & Oreo cookies blended with soft serve, ice & topped with whipped cream",
+                                                            "imageId": "58e19527263a4bf3bbbac4befb924120",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "125974255",
+                                                            "name": "Strawberry Shake",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "An all time favourite treat bringing together the perfect blend of creamy vanilla soft serve and strawberry flavor.Now in new, convenient and delivery friendly packaging",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/b7d85483-4328-40a7-8cba-c408771d2482_99cab512-28fc-4b2c-b07f-87850002e79c.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147749669",
+                                                            "name": "Ice Tea - lemon flavour",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A perfect blend of aromatic teas, infused with lemon flavour.Now in a new, convenient and delivery friendly packaging",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/14/9dd6bee1-9ee4-40bc-801d-cf3c2472c5ed_6c035a5d-6f2c-4b2a-8351-41d6c476d9a7.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545598",
+                                                            "name": "Mocha Coffee (R)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A delight of ground Arabica espresso, chocolate syrup and steamed milk",
+                                                            "imageId": "04a137420bf3febf861c4beed86d5702",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24200,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545589",
+                                                            "name": "Hot Chocolate (R)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Sinfully creamy chocolate whisked with silky streamed milk",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/1948679f-65df-4f93-a9cc-2ec796ca0818_6ad8b55d-e3cc-48ed-867d-511100b5735d.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23200,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "127406065",
+                                                            "name": "McCafe-Classic Coffee",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "An irrestible blend of our signature espresso and soft serve with whipped cream on top, a timeless combination! Now in a new, convenient and delivery friendly packaging.",
+                                                            "imageId": "5f9bdb36689a11cadb601a27b6fdef2d",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21600,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63417923",
+                                                            "name": "Mixed Berry Smoothie",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A mix of mixed berries, blended together with our creamy soft serve",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/7a70ab81-ef1e-4e13-9c78-43ed2c62eaeb_3cd64c86-3a7b-41a6-9528-5fb5e2bbadc7.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21100,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "125974249",
+                                                            "name": "Mango Smoothie",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A delicious mix of mangoes, soft serve mix and blended ice",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/bb8470e1-5862-4844-bb47-ec0b2abdd752_845f1527-6bb0-46be-a1be-2fcc7532e813.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21100,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545597",
+                                                            "name": "Ice Americano Coffee ",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Signature Arabica espresso shot mixed with ice for an energizing experience",
+                                                            "imageId": "7d89db9d67c537d666d838ddc1e0c44f",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18700,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545591",
+                                                            "name": "Latte Coffee (R)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A classic combination of the signature McCafe espresso, smooth milk, steamed and frothed",
+                                                            "imageId": "cee1ec0e10e25018572adcaf3a3c9e8c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545596",
+                                                            "name": "McCafe-Ice Coffee",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Classic coffee poured over ice with soft servefor a refreshing pick-me-up",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/14/fd328038-532b-4df7-b6e9-b21bd6e8c70f_7e663943-ab8a-4f24-8dc0-d727dd503cd3.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545590",
+                                                            "name": "Hot Chocolate (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Sinfully creamy chocolate whisked with silky streamed milk",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/1948679f-65df-4f93-a9cc-2ec796ca0818_6ad8b55d-e3cc-48ed-867d-511100b5735d.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814270",
+                                                            "name": "Americano Coffee (R)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Refreshing cup of bold and robust espresso made with our signature 100% Arabica beans, combined with hot water",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/6a300499-efad-4a89-8fe4-ef6f6d3c1e2d_db248587-e3ea-4034-bbd7-33f9e483d6cb.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147749671",
+                                                            "name": "Ice Tea- strawberry flavour",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A perfect blend of aromatic teas, infused with strawberry flavour . Now in a new, convenient and delivery friendly packaging",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/14/f585991b-3864-4996-9821-9d835f44d09e_ea5c4f0e-c670-4b3e-b1f1-d8848edcfa2d.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "121540197",
+                                                            "name": "Cappuccino Coffee (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A refreshing espresso shot of 100% Arabica beans, topped with steamed milk froth. 236ml",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/4f45f0d8-111a-4d9c-a993-06d6858fdb06_cb5d79e9-c112-45e5-9e6a-e17d75acd8ac.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814212",
+                                                            "name": "Berry Lemonade Regular",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A refreshing drink, made with the delicious flavors of berries. 354 ml.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/14/4f0f852a-1e4a-4bd9-b0ec-69ccef3c6a34_0f4f0b64-1b1b-4a7d-98f9-e074fc96d1bd.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14300,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.0",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "145040319",
+                                                            "name": "Espresso Shot",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Enjoy an  Espresso Shot",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/5/7f188d92-7a7d-4f72-a518-38da47c14e5f_086f9aec-875b-498e-9d00-88c6d2aa91df.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814265",
+                                                            "name": "Moroccan Mint Green Tea (R )",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Freshly-brewed refreshing tea with hint of Moroccon Mint flavour",
+                                                            "imageId": "2699c7c2130b4f50a09af3e294966b2e",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814309",
+                                                            "name": "Flat White Coffee",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Our signature McCafe espresso made with 100% Arabica beans, blended with steamed milk",
+                                                            "imageId": "562cb96c1de1c6f650daab676cf8dc8a",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.7",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814326",
+                                                            "name": "English Breakfast Tea",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "For when you want your time to enjoy long, slow sips of the wholesome English Breakfast tea",
+                                                            "imageId": "6333ac2ebe823a20cad586c0cd397b16",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 16500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814354",
+                                                            "name": "Americano Coffee (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Refreshing cup of bold and robust espresso made with our signature 100% Arabica beans, combined with hot water",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/6a300499-efad-4a89-8fe4-ef6f6d3c1e2d_db248587-e3ea-4034-bbd7-33f9e483d6cb.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814360",
+                                                            "name": "Strawberry Green Tea (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "Freshly-brewed refreshing tea with fruity Strawbery flavour",
+                                                            "imageId": "167dc0134bc1f4e8d7cb8e5c2a9dde5d",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15400,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545592",
+                                                            "name": "Latte Coffee (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A classic combination of the signature McCafe espresso, smooth milk, steamed and froth",
+                                                            "imageId": "cee1ec0e10e25018572adcaf3a3c9e8c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545599",
+                                                            "name": "Mocha Coffee (S)",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A delight of ground Arabica espresso, chocolate syrup and steamed milk",
+                                                            "imageId": "71df07eb87d96824e2122f3412c8f743",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "147749668",
+                                                            "name": "Ice Tea - Green Apple flavour",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A perfect blend of aromatic teas, infused with green apple flavour .Now in a new, convenient and delivery friendly packaging",
+                                                            "imageId": "54243043b1b31fa715f38e6998a63e93",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407575",
+                                                            "name": "Classic Coffee Regular with Hazelnut",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "refreshing and delicious beverage that combines the rich, nutty taste of hazelnut with the cool, invigorating essence of cold coffee",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/b65446d8-bee6-484c-abdf-0326315c7e40_4c694dbc-e5e9-4998-b6ac-bd280fc6b5dc.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23700,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407577",
+                                                            "name": "Cappuccino Small with Hazelnut",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A delightful and aromatic coffee beverage that combines the robust flavor of espresso with the rich, nutty essence of hazelnut.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/1793c61c-48f4-4785-b8a6-bc50eadb3b88_36ab0b13-0b17-459c-97a6-50dea3027b80.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407581",
+                                                            "name": "Classic Coffee Regular with French Vanilla",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "a delightful and refreshing beverage that blends into the smooth, creamy essence of vanilla with the invigorating taste of chilled coffee.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/5926eaba-bd6a-4af1-ba57-89bdb2fdfec6_c2507538-7597-4fc0-92e3-bdf57c81bda5.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23700,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407584",
+                                                            "name": "Iced Coffee with French Vanilla",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "An ideal choice for those who enjoy a smooth, creamy vanilla twist to their iced coffee, providing a satisfying and refreshing pick-me-up",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/35867352-7802-4082-8b25-955878a6daa2_1d995db8-655f-45d3-9ad2-4469fe1301ae.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407585",
+                                                            "name": "Iced Coffee with Hazelnut",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "An ideal choice for those who enjoy a flavorful, nutty twist to their iced coffee, providing a satisfying and refreshing pick-me-up.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/0619409e-e7cc-4b7c-a002-c05a2dff2ed8_f9bf368f-3dae-4af5-813d-4645384d24f7.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "167407587",
+                                                            "name": "Cappuccino Small with French Vanilla",
+                                                            "category": "Coffee & Beverages (Hot and Cold)",
+                                                            "description": "A popular coffee beverage that combines the smooth, creamy flavor of vanilla with the robust taste of espresso",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/23/e0a5c619-2df5-431f-9e21-670a358e8dbb_c2a2324f-ff95-44b3-adf9-dd6aee9696aa.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/14/5ad3343d-a520-498d-a933-52104c624304_9f6cb499-0229-40dc-8b17-4c386f0cc287.png",
+                                            "categoryId": "41091822"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Cakes Brownies and Cookies",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "142787642",
+                                                            "name": "Hot  Coffee Combo",
+                                                            "category": "Cakes Brownies and Cookies",
+                                                            "description": "In this combo choose any 1 hot coffee among- Cappuccino(s)/Latte(s)/Mocha(s)/Americano(s) and any 1 snacking item among- Choco crunch cookies/Oats Cookies/Choco Brownie/Blueberry muffin/ Signature croissant",
+                                                            "imageId": "9aba6528e9c4f780dda18b5068349020",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18100,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "166705516",
+                                                                    "groupName": "Choose an option for Cappuccino Coffee (S)",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "121450105",
+                                                                            "name": "Americano Coffee (S)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450113",
+                                                                            "name": "Latte Coffee (S)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450107",
+                                                                            "name": "Mocha Coffee (S)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                },
+                                                                {
+                                                                    "groupId": "166705517",
+                                                                    "groupName": "Choose an option for Choco Crunch Cookie",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "121450103",
+                                                                            "name": "Cinnamon Raisin Cookie",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450110",
+                                                                            "name": "Chocochip Muffin",
+                                                                            "price": 2900,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450111",
+                                                                            "name": "Indulge Choco Jar Dessert",
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "127406057",
+                                                            "name": "Chocochip Muffin",
+                                                            "category": "Cakes Brownies and Cookies",
+                                                            "description": "Enjoy a dense chocochip muffin, with melty chocolate chips for a choco-lover's delight",
+                                                            "imageId": "6c748c0b21f4a99593d1040021500430",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14200,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "142787643",
+                                                            "name": "Choco Crunch Cookie",
+                                                            "category": "Cakes Brownies and Cookies",
+                                                            "description": "Grab the choco crunch cookies packed with chocolate chips for the perfect crunch",
+                                                            "imageId": "32ff88484a8607b6d740c1635b9ce09f",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "142787644",
+                                                            "name": "Cinnamon Raisin Cookie",
+                                                            "category": "Cakes Brownies and Cookies",
+                                                            "description": "Enjoy the wholesome flavours of this chewy and satisfying cookie",
+                                                            "imageId": "fa5526832dfc6e236e6de7c322beae94",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "142787641",
+                                                            "name": "Cold Coffee  Combo",
+                                                            "category": "Cakes Brownies and Cookies",
+                                                            "description": "In this combo choose any 1 coffee among- Cold Coffee ( R )/Iced Coffee ( R )/Iced Americano ( R ) and any 1 snacking item among- Choco crunch cookies/Oats Cookies/Choco Brownie/Blueberry muffin",
+                                                            "imageId": "cb24719daf96b58dd1be3bbf7b9fe372",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "166705514",
+                                                                    "groupName": "Choose an option for Choco Crunch Cookie",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "121450103",
+                                                                            "name": "Cinnamon Raisin Cookie",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450110",
+                                                                            "name": "Chocochip Muffin",
+                                                                            "price": 2900,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450111",
+                                                                            "name": "Indulge Choco Jar Dessert",
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                },
+                                                                {
+                                                                    "groupId": "166705515",
+                                                                    "groupName": "Choose an option for Cold Coffee (R)",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "121450108",
+                                                                            "name": "Iced Coffee (R)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "121450112",
+                                                                            "name": "Ice Americano Coffee",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "9aba6528e9c4f780dda18b5068349020",
+                                            "categoryId": "46214579"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "McSaver Combos (2 Pc Meals)",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814156",
+                                                            "name": "2 Iced Coffee",
+                                                            "category": "McSaver Combos (2 Pc Meals)",
+                                                            "description": "Enjoy 2 Iced Coffee",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/e36a9ed2-bfc0-4d36-bfef-297e2c74f991_90e415d8-c4f0-45c1-ad81-db8ef52a5f96.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "42814307",
+                                                            "name": "2 Cappuccino",
+                                                            "category": "McSaver Combos (2 Pc Meals)",
+                                                            "description": "2 Cappuccino (S)",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/34aaf6ee-06e2-4c60-9950-8ad569bc5898_2639ffd2-47dd-447b-bbbe-eb391315666f.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/15/e36a9ed2-bfc0-4d36-bfef-297e2c74f991_90e415d8-c4f0-45c1-ad81-db8ef52a5f96.png",
+                                            "categoryId": "42049788"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Fries & Sides",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545586",
+                                                            "name": "Fries (Large)",
+                                                            "category": "Fries & Sides",
+                                                            "description": "World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness.",
+                                                            "imageId": "a4b3002d0ea35bde5e5983f40e4ebfb4",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14190,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545587",
+                                                            "name": "Fries (Medium)",
+                                                            "category": "Fries & Sides",
+                                                            "description": "World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness.",
+                                                            "imageId": "8a61e7fd97c454ea14d0750859fcebb8",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12190,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113545588",
+                                                            "name": "Fries (Regular)",
+                                                            "category": "Fries & Sides",
+                                                            "description": "World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness.",
+                                                            "imageId": "5a18fbbff67076c9a4457a6b220a55d9",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8190,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63417930",
+                                                            "name": "Veg Pizza McPuff",
+                                                            "category": "Fries & Sides",
+                                                            "description": "Crispy brown crust with a generous filling of rich tomato sauce, mixed with carrots, bell peppers, beans, onions and mozzarella. Served HOT.",
+                                                            "imageId": "abe4b8cdf0f1bbfd1b9a7a05be3413e8",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "71 ratings",
+                                                                    "ratingCountV2": "71"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "a4b3002d0ea35bde5e5983f40e4ebfb4",
+                                            "categoryId": "33340404"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 11418850000321"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "McCafe by McDonald's",
+                                            "area": "Bhawarkuan Main Road",
+                                            "completeAddress": "Hardcastle Restaurants Pvt Ltd, McDonalds Family Restaurants Pvt Ltd, Orange Business Park, Survey No 1618/1/2 and 1618/1/3, Bhawarkuan Main Road,Beside Rajnandini Hotel, Near Apple Hospital,Indore"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "49727386-8340-4153-9eb3-fd492859b6a2",
+    "sid": "k6pf3172-5a04-4703-9edf-0a78591a17ce",
+    "deviceId": "89051232-ce18-f7e5-2e47-c6dc81d2b997",
+    "csrfToken": "Ld2eMFKqQZ1G-LitG2axeE3KrRIV6SOq9mlznKTY"
+}

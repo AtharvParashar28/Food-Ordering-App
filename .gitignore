@@ -1,1 +1,34 @@
-node_modules
+# dependencies
+/node_modules/
+
+# build output
+/dist/
+/build/
+
+# local env files
+.env
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# parcel or other bundler cache
+.cache/
+.parcel-cache/
+
+# optional: test coverage
+coverage/
+
+# lock files (optional)
+package-lock.json
+yarn.lock

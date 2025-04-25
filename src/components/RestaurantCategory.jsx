@@ -5,7 +5,7 @@ const ResCategory = (prop) => {
 
     const [showId, setShowId] = useState(null);
 
-    console.log(data)
+    // console.log(data)
     return (
         <div className="flex flex-col w-full gap-4">
             {

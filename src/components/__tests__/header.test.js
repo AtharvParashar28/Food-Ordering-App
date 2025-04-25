@@ -30,5 +30,10 @@ describe("testing header componenet", () => {
 
         // Assertion
         expect(button2).toBeInTheDocument();
+
+        fireEvent.click(button2);
+
+        expect(button1).toBeInTheDocument();
+
     })
 })

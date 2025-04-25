@@ -41,19 +41,6 @@ const Menu = () =>{
         .catch(error => console.error("Error occured" , error))
     },[]);
 
-    // useEffect(() => {
-    //     if(menu !== undefined)
-    //         console.log('menu',menu);
-    // },[menu]);
-
-    // const fetchData = async() => {
-    //     const data = await fetch(MENU_API+resId);
-    //     const json = await data.json();
-    //     setMenu(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]);
-    //     // setMenu(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.carousel);
-    //     // here from 1st index to last index we have categaries in menu page
-    // }
-
     const AddtoCard = (item) => {
         dispatch(addItem(item))
     }

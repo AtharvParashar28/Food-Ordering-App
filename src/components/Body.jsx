@@ -30,22 +30,19 @@ const Body = () => {
       setRes(filteredRes)
   }
   
-  const fetchData = async () =>{
-            const data = await fetch(API);
-            
-            const json = await data.json();
-            
-            setRes(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-          }
-          
-    useEffect(() => {
-            fetchData();
+  useEffect(() => {
+            fetch(API)
+                    .then(response => response.json())
+                    .then((json) => {
+                      setRes(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+                    })
+                    .catch(error => console.error("Error occured" , error))
           },[]);
 
-    useEffect(() => {
-      console.log('fetched data',Res);
-      console.log('is opened or not',Res?.[0]?.info?.isOpen)
-    },[Res]);
+    // useEffect(() => {
+    //   console.log('fetched data',Res);
+    //   console.log('is opened or not',Res?.[0]?.info?.isOpen)
+    // },[Res]);
  
   console.log("Body rendered")
 
@@ -57,7 +54,7 @@ const Body = () => {
         </div>
 
         <div className="text-center">
-                <input type="text" value={Inputvalue} onChange={handlechange} className="border p-1 rounded"/>
+                <input type="text" value={Inputvalue} onChange={handlechange} className="border p-1 rounded" data-testid = "SearchInput"/>
                 <button type="submit" onClick={searching} className="ml-2 bg-blue-500 text-white rounded px-3 py-1">Search</button>
         </div>
 
@@ -70,9 +67,9 @@ const Body = () => {
            />
         </div>
 
+        
         <div className="flex flex-wrap justify-center gap-4">
           {
-            // (Res.length === 0)
             (Res === null) 
             ?
             <Shimmer/>
@@ -81,16 +78,41 @@ const Body = () => {
               (resdata?.info?.isOpen)  
             ?
             <Link to={'/restaurant/'+resdata?.info?.id}  key={index}>
-              <Promoted_ResCard resdata={resdata}/>
+                <Promoted_ResCard resdata={resdata}/>
             </Link>
             :
             <Link to={'/restaurant/'+resdata?.info?.id}  key={index}>
-              <ResCard resdata={resdata}/>
+                <ResCard resdata={resdata}/>
             </Link>
             )
           )
         }
         </div>
+
+        {/* Just for testing will comment below code and uncomment above code after testing*/}
+        {/* <div className="flex flex-wrap justify-center gap-4">
+        <Link to={'/restaurant/'+Res[0]?.info?.id}  key={0}>
+          <ResCard resdata={Res?.[0]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[1]?.info?.id}  key={1}>
+          <ResCard resdata={Res?.[1]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[2]?.info?.id}  key={2}>
+          <ResCard resdata={Res?.[2]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[3]?.info?.id}  key={3}>
+          <ResCard resdata={Res?.[3]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[4]?.info?.id}  key={4}>
+          <ResCard resdata={Res?.[4]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[5]?.info?.id}  key={5}>
+          <ResCard resdata={Res?.[5]}/>
+        </Link>
+        <Link to={'/restaurant/'+Res[6]?.info?.id}  key={6}>
+          <ResCard resdata={Res?.[6]}/>
+        </Link>
+        </div> */}
     </div>
 )}
 

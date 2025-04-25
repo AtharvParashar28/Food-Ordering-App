@@ -19,7 +19,7 @@ const Cart = () => {
     }
 
 
-    console.log(cartItems)
+    // console.log(cartItems)
     return (
         <div className="flex flex-col flex-wrap justify-center gap-8 m-4 p-4">
             <div className="flex flex-col gap-4 text-center items-center">
@@ -34,7 +34,7 @@ const Cart = () => {
             <div className="flex flex-row flex-wrap justify-center gap-8 m-4 p-4">
             {
                 cartItems.map((item,index) => (
-                    <div className="w-64 h-82 border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center" key={index}>
+                    <div data-testid="cartitem" className="w-64 h-82 border border-gray-300 p-4 rounded-lg shadow-sm flex flex-col items-center" key={index}>
                         <img src={CATEGORY_IMG_URL + item?.imageId} alt="menu image" className="mb-4 object-cover w-full h-full"/>
                         <h1 className="text-lg font-semibold mb-2">{item?.name}</h1>
                         <h2 className="text-lg font-semibold mb-2"><b>{item?.price / 100} &#8377;</b></h2>

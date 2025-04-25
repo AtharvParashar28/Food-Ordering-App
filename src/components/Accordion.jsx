@@ -28,7 +28,7 @@ const AccordionItem = ({ item, index , showItem, showId, setShowId}) => {
                 item?.card?.card?.itemCards?.map?.((subitem, subindex) => {
                     return (
                     showItem &&
-                    <div className={`flex justify-center gap-24 my-3 mb-4 mt-4 border-b`} key={subindex}>
+                    <div data-testid="accordionitems" className={`flex justify-center gap-24 my-3 mb-4 mt-4 border-b`} key={subindex}>
                         <div className="w-64 h-16 flex items-center justify-center">
                             <h1 key={subindex}>{subitem?.card?.info?.name}</h1>
                         </div>
